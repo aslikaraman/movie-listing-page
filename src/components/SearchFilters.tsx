@@ -32,12 +32,6 @@ const SearchFilters: React.FC<Props> = ({
             value={searchTerm}
             onChange={(e) => onSearchChange(e.target.value)}
           />
-          <button
-            className="btn btn-primary ms-2"
-            onClick={onSearchClick} 
-          >
-            Search
-          </button>
         </div>
       </div>
       <div className="d-flex flex-column align-items-start">
